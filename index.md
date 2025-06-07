@@ -38,8 +38,7 @@ title: Rajesh & Akansha Wedding Album
   //     {% endif %}
   //   {% endfor %}
   // ];
-
-  const allFiles = [
+const allFiles = [
   { path: "/assets/Reception/r_DSC_7382.JPG", name: "r_DSC_7382.JPG" },
   { path: "/assets/Reception/r_DSC_7546.JPG", name: "r_DSC_7546.JPG" },
   { path: "/assets/Reception/r_DSC_7552.JPG", name: "r_DSC_7552.JPG" },
