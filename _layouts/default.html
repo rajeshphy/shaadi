@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
   <style>
@@ -74,6 +75,19 @@ button {
 button:hover {
   background: #c2185b;
 }
+
+/* Smaller spacing for mobile */
+  @media screen and (max-width: 600px) {
+    #album-buttons button {
+      font-size: 0.9rem;
+      padding: 8px 12px;
+    }
+
+    .download-button {
+      font-size: 0.8rem;
+    }
+  }
+
   </style>
 </head>
 <body>
