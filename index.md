@@ -8,7 +8,7 @@ title: Rajesh & Akansha Wedding Album
   <div style="text-align: center;">
     <img src="/shaadi/assets/Couple.JPG" alt="Rajesh" style="width: 160px; height: 160px; border-radius: 50%; box-shadow: 0 0 10px rgba(0,0,0,0.2); object-fit: cover;">
     <div style="margin-top: 0.5rem; font-weight: bold;">Akansha 💖 Rajesh</div>
-    <div style="font-size: 0.9rem; color: #666;">A Journey of Love, Laughter & Forever 📷 (2025)</div>
+    <div style="font-size: 0.9rem; color: #666;">A Journey of Love, Laughter & Forever 📷 </div>
   </div>
 </div>
 
