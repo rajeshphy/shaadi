@@ -6,13 +6,13 @@ title: Rajesh & Akansha Wedding Album
 <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 2rem; margin: 2rem 0;">
   
   <div style="text-align: center;">
-    <img src="/shaadi/assets/Couple.JPG" alt="Rajesh" style="width: 200px; height: 200px; border-radius: 50%; box-shadow: 0 0 10px rgba(0,0,0,0.2); object-fit: cover;">
+    <img src="/shaadi/assets/Couple.JPG" alt="Rajesh" style="width: 300px; height: 300px; border-radius: 50%; box-shadow: 0 0 10px rgba(0,0,0,0.2); object-fit: cover;">
     <div style="margin-top: 1rem; font-size: 1.8rem; font-weight: bold; color: darkred;">Akansha 💖 Rajesh
     </div>
     <div style="font-size: 0.9rem; color: #666;">A Journey of Love, Laughter & Forever 📷 </div>
     <div style="font-size: 0.85rem; color: #a67c52; margin-top: 1rem; line-height: 1.4;">
   🙌 <strong>Chekka</strong> – 22 April 2025 &nbsp; | &nbsp;
-  🌼 <strong>Lagan Bandhi</strong> – 9 May &nbsp; | &nbsp;
+  🌼 <strong>Lagan</strong> – 9 May &nbsp; | &nbsp;
   💅 <strong>Mehandi</strong> – 10 May &nbsp; | &nbsp;
   💍 <strong>Wedding</strong> – 11 May &nbsp; | &nbsp;
   🎉 <strong>Reception</strong> – 13 May
