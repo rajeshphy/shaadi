@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Rajesh & Akansha Wedding Album
+title: Akansha & Rajesh Wedding Album
 ---
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 2rem; margin: 2rem 0;">
