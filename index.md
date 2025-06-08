@@ -66,7 +66,7 @@ const allFiles = [
   function filterByFolder(folder) {
     clearGalleries();
 
-    const folderPath = "/shaadi/assets/" + folder + "/";
+    const folderPath = "shaadi/assets/" + folder + "/";
 
     const filteredFiles = allFiles.filter(file => file.path.startsWith("/" + folderPath));
 
@@ -81,18 +81,18 @@ const allFiles = [
 
       // Image with full-size on click
       const link = document.createElement("a");
-      link.href = "/shaadi" +file.path;
+      link.href = file.path;
       link.target = "_blank";
 
       const img = new Image();
-      img.src = "/shaadi" +file.path;
+      img.src = file.path;
       img.alt = file.name;
       img.classList.add("album-img");
       link.appendChild(img);
 
       // Download button
       const downloadBtn = document.createElement("a");
-      downloadBtn.href = "/shaadi" +file.path;
+      downloadBtn.href = file.path;
       downloadBtn.download = file.name;
       downloadBtn.classList.add("download-button");
       downloadBtn.innerText = "⬇️ Download";
