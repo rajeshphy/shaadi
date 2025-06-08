@@ -2,6 +2,7 @@
 layout: default
 title: Rajesh & Akansha Wedding Album
 ---
+### 📸 Click an Album Button
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 2rem; margin: 2rem 0;">
   
@@ -12,7 +13,13 @@ title: Rajesh & Akansha Wedding Album
   </div>
 </div>
 
-### 📸 Click an Album
+<div style="text-align: center; font-size: 0.95rem; margin-top: 1rem; line-height: 1.2;">
+  <strong>Chekka</strong> – 22 April 2025<br>
+  🌼 <strong>Lagan Bandhi & Haldi</strong> – May 9, 2025<br>
+  💅 <strong>Mehandi & Sangeet</strong> – May 10, 2025<br>
+  💍 <strong>Wedding</strong> – May 11, 2025<br>
+  🎉 <strong>Reception</strong> – May 13, 2025
+</div>
 
 <div id="album-buttons">
   <button onclick="filterByFolder('Chekka')">Chekka</button>
@@ -21,13 +28,6 @@ title: Rajesh & Akansha Wedding Album
   <button onclick="filterByFolder('Single')">Single</button>
 </div>
 
-<div style="text-align: center; font-size: 0.95rem; margin-top: 1rem; line-height: 1.2;">
-  <strong>Chekka</strong> – 22 April 2025<br>
-  🌼 <strong>Lagan Bandhi & Haldi</strong> – May 9, 2025<br>
-  💅 <strong>Mehandi & Sangeet</strong> – May 10, 2025<br>
-  💍 <strong>Wedding</strong> – May 11, 2025<br>
-  🎉 <strong>Reception</strong> – May 13, 2025
-</div>
 ---
 
 <div class="gallery" id="portrait-gallery"></div>
