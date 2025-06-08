@@ -2,37 +2,39 @@
 layout: default
 title: Rajesh & Akansha Wedding Album
 ---
-### 📸 Click an Album Button
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 2rem; margin: 2rem 0;">
   
   <div style="text-align: center;">
-    <img src="/shaadi/assets/Couple.JPG" alt="Rajesh" style="width: 160px; height: 160px; border-radius: 50%; box-shadow: 0 0 10px rgba(0,0,0,0.2); object-fit: cover;">
-    <div style="margin-top: 0.5rem; font-weight: bold;">Akansha 💖 Rajesh</div>
+    <img src="/shaadi/assets/Couple.JPG" alt="Rajesh" style="width: 200px; height: 200px; border-radius: 50%; box-shadow: 0 0 10px rgba(0,0,0,0.2); object-fit: cover;">
+    <div style="margin-top: 1rem; font-size: 1.8rem; font-weight: bold; color: darkred;">Akansha 💖 Rajesh
+    </div>
     <div style="font-size: 0.9rem; color: #666;">A Journey of Love, Laughter & Forever 📷 </div>
+    <div style="font-size: 0.85rem; color: #a67c52; margin-top: 1rem; line-height: 1.4;">
+  🙌 <strong>Chekka</strong> – 22 April 2025 &nbsp; | &nbsp;
+  🌼 <strong>Lagan Bandhi & Haldi</strong> – 9 May 2025 &nbsp; | &nbsp;
+  💅 <strong>Mehandi & Sangeet</strong> – 10 May 2025 &nbsp; | &nbsp;
+  💍 <strong>Wedding</strong> – 11 May 2025 &nbsp; | &nbsp;
+  🎉 <strong>Reception</strong> – 13 May 2025
+</div>
+    <div style="margin-top: 0.8rem; font-weight: bold; color: #666;">Click button below to view Album </div><br>
+    <div id="album-buttons">
+    <button onclick="filterByFolder('Chekka')">Chekka</button>
+    <button onclick="filterByFolder('Shaadi')">Shaadi</button>
+    <button onclick="filterByFolder('Recep')">Recep</button>
+    <button onclick="filterByFolder('Single')">Single</button>
+    </div>
   </div>
 </div>
 
-<div style="text-align: center; font-size: 0.95rem; margin-top: 1rem; line-height: 1.2;">
-  🙌 <strong>Chekka</strong> – 22 April 2025<br>
-  🌼 <strong>Lagan Bandhi & Haldi</strong> – May 9, 2025<br>
-  💅 <strong>Mehandi & Sangeet</strong> – May 10, 2025<br>
-  💍 <strong>Wedding</strong> – May 11, 2025<br>
-  🎉 <strong>Reception</strong> – May 13, 2025
-</div>
-
-<div id="album-buttons">
-  <button onclick="filterByFolder('Chekka')">Chekka</button>
-  <button onclick="filterByFolder('Shaadi')">Shaadi</button>
-  <button onclick="filterByFolder('Recep')">Recep</button>
-  <button onclick="filterByFolder('Single')">Single</button>
-</div>
-
----
 
 <div class="gallery" id="portrait-gallery"></div>
 
 <div class="gallery" id="landscape-gallery"></div>
+
+<div class="cursive-message">
+    Click the <strong>Album</strong> button to view photos. Click an image to zoom. Use <strong>Download</strong> to save.
+</div>
 
 <script>
 const allFiles = [
