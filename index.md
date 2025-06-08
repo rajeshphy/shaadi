@@ -3,15 +3,16 @@ layout: default
 title: Rajesh & Akansha Wedding Album
 ---
 
-## Rajesh💖Akansha
-
-<div style="text-align: center; margin-top: -10px; font-size: 0.9rem; color: #666;">
-  A Journey of Love, Laughter & Forever 📷 (2025)
+<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 2rem; margin: 2rem 0;">
+  
+  <div style="text-align: center;">
+    <img src="/shaadi/assets/Couple.JPG" alt="Rajesh" style="width: 160px; height: 160px; border-radius: 50%; box-shadow: 0 0 10px rgba(0,0,0,0.2); object-fit: cover;">
+    <div style="margin-top: 0.5rem; font-weight: bold;">Akansha 💖 Rajesh</div>
+    <div style="font-size: 0.9rem; color: #666;">A Journey of Love, Laughter & Forever 📷 (2025)</div>
+  </div>
 </div>
 
----
-
-## 📸 Click an Album
+### 📸 Click an Album
 
 <div id="album-buttons">
   <button onclick="filterByFolder('Chekka')">Chekka</button>
@@ -20,9 +21,8 @@ title: Rajesh & Akansha Wedding Album
   <button onclick="filterByFolder('Single')">Single</button>
 </div>
 
----
-<div style="text-align: center; font-size: 0.95rem; margin-top: 1rem; line-height: 1.8;">
-  📅 <strong>Chekka</strong> – 22 April 2025<br>
+<div style="text-align: center; font-size: 0.95rem; margin-top: 1rem; line-height: 1.2;">
+  <strong>Chekka</strong> – 22 April 2025<br>
   🌼 <strong>Lagan Bandhi & Haldi</strong> – May 9, 2025<br>
   💅 <strong>Mehandi & Sangeet</strong> – May 10, 2025<br>
   💍 <strong>Wedding</strong> – May 11, 2025<br>
