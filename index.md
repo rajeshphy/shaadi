@@ -12,10 +12,10 @@ title: Rajesh & Akansha Wedding Album
     <div style="font-size: 0.9rem; color: #666;">A Journey of Love, Laughter & Forever 📷 </div>
     <div style="font-size: 0.85rem; color: #a67c52; margin-top: 1rem; line-height: 1.4;">
   🙌 <strong>Chekka</strong> – 22 April 2025 &nbsp; | &nbsp;
-  🌼 <strong>Lagan Bandhi & Haldi</strong> – 9 May 2025 &nbsp; | &nbsp;
-  💅 <strong>Mehandi & Sangeet</strong> – 10 May 2025 &nbsp; | &nbsp;
-  💍 <strong>Wedding</strong> – 11 May 2025 &nbsp; | &nbsp;
-  🎉 <strong>Reception</strong> – 13 May 2025
+  🌼 <strong>Lagan Bandhi</strong> – 9 May &nbsp; | &nbsp;
+  💅 <strong>Mehandi</strong> – 10 May &nbsp; | &nbsp;
+  💍 <strong>Wedding</strong> – 11 May &nbsp; | &nbsp;
+  🎉 <strong>Reception</strong> – 13 May
 </div>
     <div style="margin-top: 0.8rem; font-weight: bold; color: #666;">Click button below to view Album </div><br>
     <div id="album-buttons">
