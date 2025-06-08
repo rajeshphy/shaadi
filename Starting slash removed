@@ -32,23 +32,7 @@ title: Rajesh & Akansha Wedding Album
 const allFiles = [
   { path: "assets/Individual/A/r_DSC_7126.JPG", name: "r_DSC_7126.JPG" },
   { path: "assets/Individual/A/r_DSC_7131.JPG", name: "r_DSC_7131.JPG" },
-  { path: "/assets/Individual/A/r_DSC_7130.JPG", name: "r_DSC_7130.JPG" },
-  { path: "/assets/Individual/A/r_DSC_7129.JPG", name: "r_DSC_7129.JPG" },
-  { path: "/assets/Individual/A/r_DSC_7249.JPG", name: "r_DSC_7249.JPG" },
-  { path: "/assets/Individual/A/r_DSC_7488.JPG", name: "r_DSC_7488.JPG" },
-  { path: "/assets/Individual/A/r_DSC_7604.JPG", name: "r_DSC_7604.JPG" },
-  { path: "/assets/Individual/A/r_DSC_7610.JPG", name: "r_DSC_7610.JPG" },
-  { path: "/assets/Individual/A/r_DSC_7559.JPG", name: "r_DSC_7559.JPG" },
-  { path: "/assets/Individual/A/r_DSC_7612.JPG", name: "r_DSC_7612.JPG" },
-  { path: "/assets/Individual/A/r_DSC_7570.JPG", name: "r_DSC_7570.JPG" },
-  { path: "/assets/Individual/A/r_DSC_7564.JPG", name: "r_DSC_7564.JPG" },
-  { path: "/assets/Individual/A/r_DSC_7575.JPG", name: "r_DSC_7575.JPG" },
-  { path: "/assets/Individual/A/r_DSC_7588.JPG", name: "r_DSC_7588.JPG" },
-  { path: "/assets/Individual/A/r_DSC_7601.JPG", name: "r_DSC_7601.JPG" },
-  { path: "/assets/Individual/A/r_DSC_7600.JPG", name: "r_DSC_7600.JPG" },
-  { path: "/assets/Individual/A/r_DSC_7562.JPG", name: "r_DSC_7562.JPG" },
-  { path: "/assets/Individual/A/r_DSC_7576.JPG", name: "r_DSC_7576.JPG" },
-  { path: "/assets/Individual/A/r_DSC_7589.JPG", name: "r_DSC_7589.JPG" },
+  { path: "assets/Individual/A/r_DSC_7130.JPG", name: "r_DSC_7130.JPG" },
 ];
 
 
