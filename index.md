@@ -50,6 +50,9 @@ const allFiles = [
   function filterByFolder(folder) {
     clearGalleries();
 
+    const baseUrl = "{{ site.baseurl }}";
+
+
     const folderPath = "assets/" + folder + "/";
 
     const filteredFiles = allFiles.filter(file => file.path.startsWith("/" + folderPath));
@@ -65,18 +68,18 @@ const allFiles = [
 
       // Image with full-size on click
       const link = document.createElement("a");
-      link.href = file.path;
+      link.href = baseUrl + "/" +file.path;
       link.target = "_blank";
 
       const img = new Image();
-      img.src = file.path;
+      img.src = baseUrl + "/" +file.path;
       img.alt = file.name;
       img.classList.add("album-img");
       link.appendChild(img);
 
       // Download button
       const downloadBtn = document.createElement("a");
-      downloadBtn.href = file.path;
+      downloadBtn.href = baseUrl + "/" +file.path;
       downloadBtn.download = file.name;
       downloadBtn.classList.add("download-button");
       downloadBtn.innerText = "⬇️ Download";
