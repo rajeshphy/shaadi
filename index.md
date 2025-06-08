@@ -29,15 +29,6 @@ title: Rajesh & Akansha Wedding Album
 ## 🖼 Landscape Orientation
 <div class="gallery" id="landscape-gallery"></div>
 <script>
-  // const allFiles = [
-  //   {% for file in site.static_files %}
-  //     {% if file.path contains 'assets/' %}
-  //       {% if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.JPG' or file.extname == '.JPEG' %}
-  //         { path: "{{ file.path }}", name: "{{ file.name }}" },
-  //       {% endif %}
-  //     {% endif %}
-  //   {% endfor %}
-  // ];
 const allFiles = [
   { path: "/assets/Individual/A/r_DSC_7126.JPG", name: "r_DSC_7126.JPG" },
   { path: "/assets/Individual/A/r_DSC_7131.JPG", name: "r_DSC_7131.JPG" },
@@ -75,7 +66,7 @@ const allFiles = [
   function filterByFolder(folder) {
     clearGalleries();
 
-    const folderPath = "assets/" + folder + "/";
+    const folderPath = "/shaadi/assets/" + folder + "/";
 
     const filteredFiles = allFiles.filter(file => file.path.startsWith("/" + folderPath));
 
@@ -90,18 +81,18 @@ const allFiles = [
 
       // Image with full-size on click
       const link = document.createElement("a");
-      link.href = file.path;
+      link.href = "/shaadi" +file.path;
       link.target = "_blank";
 
       const img = new Image();
-      img.src = file.path;
+      img.src = "/shaadi" +file.path;
       img.alt = file.name;
       img.classList.add("album-img");
       link.appendChild(img);
 
       // Download button
       const downloadBtn = document.createElement("a");
-      downloadBtn.href = file.path;
+      downloadBtn.href = "/shaadi" +file.path;
       downloadBtn.download = file.name;
       downloadBtn.classList.add("download-button");
       downloadBtn.innerText = "⬇️ Download";
