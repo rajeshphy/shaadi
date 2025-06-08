@@ -15,7 +15,7 @@ title: Rajesh & Akansha Wedding Album
   🌼 <strong>Lagan</strong> – 9 May &nbsp; | &nbsp;
   💅 <strong>Mehandi</strong> – 10 May &nbsp; | &nbsp;
   💍 <strong>Wedding</strong> – 11 May &nbsp; | &nbsp;
-  🎉 <strong>Reception</strong> – 13 May
+  🎉 <strong>Reception</strong> – 13 May 2025
 </div>
     <div style="margin-top: 0.8rem; font-weight: bold; color: #666;">Click button below to view Album </div><br>
     <div id="album-buttons">
