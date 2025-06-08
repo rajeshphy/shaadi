@@ -30,9 +30,9 @@ title: Rajesh & Akansha Wedding Album
 <div class="gallery" id="landscape-gallery"></div>
 <script>
 const allFiles = [
-  { path: "assets/Individual/A/r_DSC_7126.JPG", name: "r_DSC_7126.JPG" },
-  { path: "assets/Individual/A/r_DSC_7131.JPG", name: "r_DSC_7131.JPG" },
-  { path: "assets/Individual/A/r_DSC_7130.JPG", name: "r_DSC_7130.JPG" },
+  { path: "/assets/Individual/A/r_DSC_7126.JPG", name: "r_DSC_7126.JPG" },
+  { path: "/shaadi/assets/Individual/A/r_DSC_7131.JPG", name: "r_DSC_7131.JPG" },
+  { path: "shaadi/assets/Individual/A/r_DSC_7130.JPG", name: "r_DSC_7130.JPG" },
 ];
 
 
