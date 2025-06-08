@@ -66,7 +66,7 @@ const allFiles = [
   function filterByFolder(folder) {
     clearGalleries();
 
-    const folderPath = "shaadi/assets/" + folder + "/";
+    const folderPath = "assets/" + folder + "/";
 
     const filteredFiles = allFiles.filter(file => file.path.startsWith("/" + folderPath));
 
