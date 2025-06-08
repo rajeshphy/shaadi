@@ -14,7 +14,7 @@ title: Rajesh & Akansha Wedding Album
 </div>
 
 <div style="text-align: center; font-size: 0.95rem; margin-top: 1rem; line-height: 1.2;">
-  <strong>Chekka</strong> – 22 April 2025<br>
+  🙌 <strong>Chekka</strong> – 22 April 2025<br>
   🌼 <strong>Lagan Bandhi & Haldi</strong> – May 9, 2025<br>
   💅 <strong>Mehandi & Sangeet</strong> – May 10, 2025<br>
   💍 <strong>Wedding</strong> – May 11, 2025<br>
